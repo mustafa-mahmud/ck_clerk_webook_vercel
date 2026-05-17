@@ -1,0 +1,15 @@
+{
+	"watch": [
+		"."{
+			"watch": [
+				"."
+			],
+			"ext": "ts,tsx,js,json",
+			"ignore": [
+				"node_modules",
+				"dist"
+			],
+			"exec": "node start-dev.mjs"
+		}
+	"exec": "node --loader ts-node/esm server.ts"
+	}
